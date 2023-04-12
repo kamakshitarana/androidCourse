@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EDBBBB"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".UnitConverterApp.UnitConverter">
+
+    <TextView
+        android:id="@+id/tvUnitConvert"
+        android:layout_width="match_parent"
+        android:text="Unit ConVerter App"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/etEnterValues"
+        android:layout_width="match_parent"
+        android:hint="Enter the values of kilos"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnConvet_now"
+        android:text="CONVERT NOW"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_value"
+        android:layout_width="match_parent"
+        android:text="0"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="68dp"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+</LinearLayout>
